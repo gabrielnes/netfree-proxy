@@ -43,11 +43,11 @@ SSH-2.0-OpenSSH_7.4
  
 6. Teste feito em uma Edge Application com websocket ligado.
 ```
-curl -v http://201.21.211.115 -H 'Host: xlm94s2zs8.map.azionedge.net' -H 'Connection: Upgrade' -H 'Upgrade: Websocket'
+curl -v http://201.21.211.115 -H 'Host: xlm94s2zs8.map.acionedge.net' -H 'Connection: Upgrade' -H 'Upgrade: Websocket'
 *   Trying 201.21.211.115:80...
 * Connected to 201.21.211.115 (201.21.211.115) port 80 (#0)
 > GET / HTTP/1.1
-> Host: xlm94s2zs8.map.azionedge.net
+> Host: xlm94s2zs8.map.acionedge.net
 > User-Agent: curl/7.77.0
 > Accept: */*
 > Connection: Upgrade
@@ -64,7 +64,7 @@ SSH-2.0-OpenSSH_7.4
 
 7. Teste da conf em uma Edge Application com websocket desligado.
 ```
-curl -v http://xlm94s2zs8.map.azionedge.net -H 'Connection: Upgrade' -H 'Upgrade: Websocket'
+curl -v http://xlm94s2zs8.map.acionedge.net -H 'Connection: Upgrade' -H 'Upgrade: Websocket'
 # Não haverá o retorno do switching protocols
 ```
 
